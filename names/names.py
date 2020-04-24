@@ -145,6 +145,9 @@ for name_2 in names_2:
         duplicates.append(name_2)
 
 end_time = time.time()
+
+# from 0(n2) to 0(n) 0.1 seconds ftw
+
 print (f"{len(duplicates)} duplicates:\n\n{', '.join(duplicates)}\n\n")
 print (f"runtime: {end_time - start_time} seconds")
 
